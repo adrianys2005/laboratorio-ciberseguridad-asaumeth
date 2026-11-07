@@ -1,6 +1,6 @@
 #!/bin/sh
 
-HOST="${TARGET_HOST:-servidor-web-dmz-asaumeth.onrender.com}"
+HOST="${TARGET_HOST:-servidor-web-dmz-adrianysmaria.onrender.com}"
 
 echo "=== INICIANDO ESCANEO DE PUERTOS Y RECONOCIMIENTO EN LA DMZ ==="
 echo "Analizando puertos comunes sobre $HOST..."

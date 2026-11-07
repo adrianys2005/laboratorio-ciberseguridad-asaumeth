@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-TARGET_DMZ = os.getenv("TARGET_DMZ", "https://servidor-web-dmz-asaumeth.onrender.com")
+TARGET_DMZ = os.getenv("TARGET_DMZ", "https://servidor-web-dmz-adrianysmaria.onrender.com")
 
 @app.route('/', defaults={'path': ''}, methods=['GET', 'POST'])
 @app.route('/<path:path>', methods=['GET', 'POST'])

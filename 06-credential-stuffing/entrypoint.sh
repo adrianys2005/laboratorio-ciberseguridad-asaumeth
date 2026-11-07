@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TARGET="${TARGET_URL:-https://servidor-web-dmz-asaumeth.onrender.com}"
+TARGET="${TARGET_URL:-https://servidor-web-dmz-adrianysmaria.onrender.com}"
 USUARIOS="admin root user docente gestor"
 
 echo "=== INICIANDO ATAQUE DE CREDENTIAL STUFFING / BRUTE FORCE ==="

